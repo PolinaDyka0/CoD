@@ -3,11 +3,11 @@
 ## File Structure
 The tool consists of three main Python files, each serving a distinct purpose:
 
-- `CoD.py`: Implements the Chain of Density (CoD) prompting. This file contains the core algorithms and logic that drive the Chain of Density approach.
+- `CoD.py`: implements the Chain of Density (CoD) prompting. This file contains the core algorithms and logic that drive the Chain of Density approach.
 
-- `CoD_summarization.py`: Focuses on the text summarization approach inspired by Chain of Density. This is where the main summarization function CoD_summarization(text) resides, which users can call to generate summaries based on the CoD methodology.
+- `CoD_summarization.py`: focuses on the text summarization approach inspired by Chain of Density. This is where the main summarization function CoD_summarization(text) resides, which users can call to generate summaries based on the CoD methodology.
 
-- `simple_summarization.py`: Offers a simpler text summarization approach. This can be used for quick and basic summaries without the iterative enhancements provided by the CoD approach.
+- `simple_summarization.py`: offers a simpler text summarization approach. This can be used for quick and basic summaries without the iterative enhancements provided by the CoD approach.
 
 ## Overview
 
