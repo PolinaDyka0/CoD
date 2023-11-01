@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "summarize-text"
+version = "0.1.0"
+description = ""
+authors = ["PolinaDyka0 <115357542+PolinaDyka0@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "summarize_text"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spacy = "^3.7.2"
+transformers = "^4.34.1"
+scikit-learn = "^1.3.2"
+torch = "^2.1.0"
+sentencepiece = "^0.1.99"
+nltk = "^3.8.1"
+gensim = "^4.3.2"
+datasets = "^2.14.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
