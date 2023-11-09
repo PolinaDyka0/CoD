@@ -85,7 +85,7 @@ def incorporate_entities(text, summary, entities):
 
 def CoD_summarization(text):    
     """ 
-    Execute the "Cycle of Density" (CoD) inspired summarization. 
+    Execute the "Chain of Density" (CoD) inspired summarization. 
     This method aims to iteratively enhance the summary with critical entities.
     """
     summary = initial_summary(text)
